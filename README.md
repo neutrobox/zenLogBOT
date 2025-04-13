@@ -31,7 +31,7 @@ These instructions are for running the application directly from the source code
     cd gw2logbot
     ```
 
-3.  **Create and Activate Virtual Environment (Recommended):**
+3.  **Create and activate Virtual Environment (Recommended):**
     This creates an isolated environment for the project's dependencies, avoiding conflicts with other Python projects.
     ```bash
     # Inside the gw2logbot folder
@@ -57,9 +57,9 @@ These instructions are for running the application directly from the source code
 
 6.  **Initial Configuration:**
     *   The first time you run, go to the "Configuration" tab.
-    *   Enter your **Discord bot Token**.
+    *   Enter your **Discord BOT Token**. (Tutorial on how to create a Discord BOT: [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token))
     *   Enter the **Discord Channel ID** where you want logs to be posted.
-    *   Select your **Logs Folder** (`arcdps.cbtlogs`) using the "Browse..." button.
+    *   Select your **Logs folder** (`arcdps.cbtlogs`) using the "Browse..." button.
     *   (Optional) Enter your dps.report user token.
     *   Select the desired language.
     *   Click "Save configuration".
