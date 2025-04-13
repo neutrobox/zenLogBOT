@@ -95,3 +95,7 @@ If you wish to create your own standalone `.exe` file:
     ```
     *   `--onedir`: Alternatively, you can use `--onedir` instead of `--onefile`. This will create a folder in `dist` instead of a single file, which is less likely to be flagged as a false positive by antivirus software.
 4.  **Result:** The executable (`zenLogBOT.exe`) or folder (`dist/zenLogBOT`) will be located in the `dist` folder.
+
+##Credits
+
+Special thanks to Phantom for it's [app](https://github.com/aytiel/PHTM-b0t) and [kP] guild members for testing purposes.
