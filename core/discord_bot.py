@@ -24,7 +24,7 @@ class DiscordBot(discord.Client):
     """Maneja la conexión a Discord y el envío de mensajes formateados."""
 
     def __init__(self, token: str, target_channel_id: int, *args, **kwargs):
-        # ... (inicialización sin cambios) ...
+        
         intents = discord.Intents.default(); intents.guilds = True
         super().__init__(intents=intents, *args, **kwargs)
         self.token = token; self.target_channel_id = target_channel_id
@@ -34,7 +34,7 @@ class DiscordBot(discord.Client):
 
     async def on_ready(self):
         """Se ejecuta cuando el bot se conecta y está listo."""
-        # ... (sin cambios) ...
+        
         print(f'Bot conectado como {self.user}')
         self.target_channel = self.get_channel(self.target_channel_id)
         if self.target_channel: print(f'Canal objetivo encontrado: #{self.target_channel.name} ({self.target_channel.id})')
@@ -60,7 +60,7 @@ class DiscordBot(discord.Client):
 
     async def close_bot(self):
         """Cierra la conexión del bot y la sesión http de forma segura."""
-        # ... (sin cambios) ...
+        
         print("Cerrando conexión del bot...")
         try:
             http_client = getattr(self, 'http', None)
@@ -73,7 +73,7 @@ class DiscordBot(discord.Client):
 
     def run_bot_in_thread(self):
         """Ejecuta el bot en un hilo separado."""
-        # ... (sin cambios) ...
+        
         def run_it():
             loop = asyncio.new_event_loop(); asyncio.set_event_loop(loop); self._bot_loop = loop
             try: print("Iniciando bot con self.start() en nuevo loop..."); loop.run_until_complete(self.start(self.token))
@@ -97,7 +97,7 @@ class DiscordBot(discord.Client):
 
     def _add_field_safely(self, embed: discord.Embed, name: str, value_lines: List[str]):
         """Añade un campo al embed, truncando el valor si es necesario."""
-        # ... (sin cambios en esta función auxiliar) ...
+        
         field_value = ""; current_bytes = 0; truncated = False
         for line in value_lines:
             line_bytes = len(line.encode('utf-8'))
@@ -169,9 +169,9 @@ class DiscordBot(discord.Client):
                 duration_str = f" `({duration})`" if duration else ""
                 line = ""
                 if display_link:
-                    # Nombre en negrita es el enlace
+                    
                     line = f"{emoji_str}[**{boss_name}**]({display_link}){duration_str}\n"
-                else: # Éxito sin enlace? Mostrar solo nombre en negrita (sin enlace)
+                else: 
                     line = f"{emoji_str}**{boss_name}**{duration_str} | Success (no link)\n" # O localizar
                 # --- FIN NUEVO FORMATO ---
 
