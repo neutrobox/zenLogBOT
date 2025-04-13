@@ -83,13 +83,13 @@ These instructions are for running the application directly from the source code
 
 If you wish to create your own standalone `.exe` file:
 
-1.  **Follow steps 1-4 from "Installation and Execution (from Source Code)"** to set up the virtual environment and install base dependencies.
+1.  **Follow steps 1-4 from "Installation and execution (from source code)"** to set up the virtual environment and install base dependencies.
 2.  **Install PyInstaller:**
     ```bash
     pip install pyinstaller
     ```
 3.  **Run PyInstaller:**
-    From the root project folder (`gw2logbot`), run the following command:
+    From the root project folder (`zenLogBOT`), run the following command:
     ```bash
     pyinstaller --name "zenLogBOT" --onefile --windowed --icon="favicon.ico" --add-data="data;data" main.py
     ```
