@@ -1,0 +1,4 @@
+customtkinter
+requests
+discord.py
+# pillow # Descomentar si se usan imágenes complejas en la UI

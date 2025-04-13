@@ -1,0 +1,196 @@
+{
+    "raids": {
+        "W1": {
+            "Vale Guardian": {
+                "name": ["Vale Guardian (15438)", "Tal-Wächter (15438)", "Gardien de la Vallée (15438)", "Guardián del valle (15438)"],
+                "dps_report_link": ""
+            },
+            "Gorseval": {
+                "name": ["Gorseval the Multifarious (15429)", "Gorseval der Facettenreiche (15429)", "Gorseval le Disparate (15429)", "Gorseval el Múltiple (15429)"],
+                "dps_report_link": ""
+            },
+            "Sabetha": {
+                "name": ["Sabetha the Saboteur (15375)", "Sabetha die Saboteurin (15375)", "Sabetha la saboteuse (15375)", "Sabetha la Saboteadora (15375)"],
+                "dps_report_link": ""
+            }
+        },
+        "W2": {
+            "Slothasor": {
+                "name": ["Slothasor (16123)", "Faultierion (16123)", "Paressor (16123)", "Perezón (16123)"],
+                "dps_report_link": ""
+            },
+            "Trio": {
+                "name": ["Berg (16088)", "Berg", "Berg", "Berg"],
+                "dps_report_link": ""
+            },
+            "Matthias": {
+                "name": ["Matthias Gabrel (16115)", "Matthias Gabrel (16115)", "Matthias Gabrel (16115)", "Matías Gabrel (16115)"],
+                "dps_report_link": ""
+            }
+        },
+        "W3": {
+            "Keep Construct": {
+                "name": ["Keep Construct (16235)", "Festenkonstrukt (16235)", "Titan du fort (16235)", "Ensamblaje de la Fortaleza (16235)"],
+                "dps_report_link": ""
+            },
+            "Xera": {
+                "name": ["Xera (16246)", "Xera (16246)", "Xera (16246)", "Xera (16246)"],
+                "dps_report_link": ""
+            }
+        },
+        "W4": {
+            "Cairn": {
+                "name": ["Cairn the Indomitable (17194)", "Cairn der Unbeugsame (17194)", "Cairn lIndomptable (17194)", "Cairn el Indomable (17194)"],
+                "dps_report_link": ""
+            },
+            "Mursaat Overseer": {
+                "name": ["Mursaat Overseer (17172)", "Mursaat-Aufseher (17172)", "Surveillant mursaat (17172)", "Dirigente mursaat (17172)"],
+                "dps_report_link": ""
+            },
+            "Samarog": {
+                "name": ["Samarog (17188)", "Samarog (17188)", "Samarog (17188)", "Samarog (17188)"],
+                "dps_report_link": ""
+            },
+            "Deimos": {
+                "name": ["Deimos (17154)", "Deimos (17154)", "Deimos (17154)", "Deimos (17154)"],
+                "dps_report_link": ""
+            }
+        },
+        "W5": {
+            "Soulless Horror": {
+                "name": ["Soulless Horror (19767)", "Seelenloser Schrecken (19767)", "Horreur sans âme (19767)", "Horror sin alma (19767)"],
+                "dps_report_link": ""
+            },
+            "Dhuum": {
+                "name": ["Dhuum (19450)", "Dhuum (19450)", "Dhuum (19450)", "Dhuum (19450)"],
+                "dps_report_link": ""
+            }
+        },
+        "W6": {
+            "Conjured Amalgamate": {
+                "name": ["Conjured Amalgamate (43974)", "Beschworene Verschmelzung (43974)", "Amalgame conjuré (43974)", "Amalgamado conjurado (43974)"],
+                "dps_report_link": ""
+            },
+            "Largos Twins": {
+                "name": ["Nikare (21105)", "Nikare (21105)", "Nikare (21105)", "Nikare (21105)"],
+                "dps_report_link": ""
+            },
+            "Qadim": {
+                "name": ["Qadim (20934)", "Qadim (20934)", "Qadim (20934)", "Qadim (20934)"],
+                "dps_report_link": ""
+            }
+        },
+        "W7": {
+            "Cardinal Sabir": {
+                "name": ["Cardinal Sabir (21964)", "Kardinal Sabir (21964)", "Cardinal Sabir (21964)", "Cardenal Sabir (21964)"],
+                "dps_report_link": ""
+            },
+            "Cardinal Adina": {
+                "name": ["Cardinal Adina (22006)", "Kardinal Adina (22006)", "Cardinale Adina (22006)", "Cardenal Adina (22006)"],
+                "dps_report_link": ""
+            },
+            "Qadim the Peerless": {
+                "name": ["Qadim the Peerless (22000)", "Qadim der Unvergleichliche (22000)", "Qadim lInégalé (22000)", "Qadim el Simpar (22000)"],
+                "dps_report_link": ""
+            }
+        },
+        "W8": {
+            "Greer": {
+                "name": ["Greer, the Blightbringer (26725)", "Greer, el Portarruina (26725)"],
+                "dps_report_link": ""
+            },
+            "Decima": {
+                "name": ["Decima, the Stormsinger (26774)", "Decima, la Invocatormentas (26774)"],
+                "dps_report_link": ""
+            },
+            "Ura": {
+                "name": ["Ura (26712)"],
+                "dps_report_link": ""
+            }
+        }
+    },
+    "fractals": {
+        "96CM": {
+            "MAMA": {
+                "name": ["MAMA (17021)", "MAMA (17021)", "MAMA (17021)", "MAMA (17021)"],
+                "dps_report_link": ""
+            },
+            "Siax": {
+                "name": ["Nightmare Oratuss (17028)", "Albtraum-Oratuss (17028)", "Oratuss des Cauchemars (17028)", "Oratuss de la Pesadilla (17028)"],
+                "dps_report_link": ""
+            },
+            "Ensolyss": {
+                "name": ["Ensolyss of the Endless Torment (16948)", "Ensolyss der endlosen Pein (16948)", "Ensolyss du Tourment éternel (16948)", "Ensolyss del Tormento Eterno (16948)"],
+                "dps_report_link": ""
+            }
+        },
+        "97CM": {
+            "Skorvald": {
+                "name": ["Skorvald the Shattered (17632)"],
+                "dps_report_link": ""
+            },
+            "Artsariiv": {
+                "name": ["Artsariiv (17949)"],
+                "dps_report_link": ""
+            },
+            "Arkk": {
+                "name": ["Arkk (17759)"],
+                "dps_report_link": ""
+            }
+        },
+        "98CM": {
+            "Ai": {
+                "name": ["Sorrowful Spellcaster (23254)"],
+                "dps_report_link": ""
+            }
+        },
+        "99CM": {
+            "Kanaxai": {
+                "name": ["Kanaxai, Scythe of House Aurkus (25577)"],
+                "dps_report_link": ""
+            }
+        },
+        "100CM": {
+            "Eparch": {
+                "name": ["Eparch (26231)"],
+                "dps_report_link": ""
+            }
+        }
+    },
+    "strikes": {
+        "Core": {
+            "OLC": {
+                "name": ["Prototype Vermilion (25414)"],
+                "dps_report_link": ""
+            }
+        },
+        "EoD": {
+            "Mai Trin": {
+                "name": ["Captain Mai Trin (24033)"],
+                "dps_report_link": ""
+            },
+            "Ankka": {
+                "name": ["Ankka (23957)"],
+                "dps_report_link": ""
+            },
+            "Minister Li": {
+                "name": ["Minister Li (24266)", "Minister Li (CM) (24266)"],
+                "dps_report_link": ""
+            },
+            "HT": {
+                "name": ["The Dragonvoid (43488)", "The Dragonvoid (CM) (43488)"],
+                "dps_report_link": ""
+            }
+        },
+        "SotO": {
+            "Cerus": {
+                "name": ["Cerus (25989)", "Cerus (CM) (25989)"],
+                "dps_report_link": ""
+            },
+            "Dagda": {
+                "name": ["Dagda (25705)", "Dagda (CM) (25705)"],
+                "dps_report_link": ""
+            }
+        }
+    }
+}
