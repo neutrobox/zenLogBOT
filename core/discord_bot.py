@@ -127,7 +127,7 @@ class DiscordBot(discord.Client):
             title=f"{final_title} [{discord.utils.utcnow().strftime('%Y-%m-%d')}]", # Quitar hora del título principal
             color=discord.Color.dark_purple()
         )
-        embed.set_footer(text="zenLogBOT by LeShock | LeShock#5261")
+        embed.set_footer(text="zenLogBOT by LeShock | LeShock.5261")
 
         has_success = False
 
