@@ -1,7 +1,7 @@
 {
-  "discord_token": "1231312321",
-  "target_channel_id": "213213213",
-  "log_folder_path": "E:/VM",
+  "discord_token": "",
+  "target_channel_id": "",
+  "log_folder_path": "",
   "dps_report_user_token": "",
   "language": "en"
 }
