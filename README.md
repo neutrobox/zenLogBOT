@@ -27,8 +27,8 @@ These instructions are for running the application directly from the source code
 2.  **Clone the repository:**
     ```bash
     # Navigate to the folder where you want to clone the project
-    git clone <REPOSITORY_URL> gw2logbot
-    cd gw2logbot
+    git clone https://github.com/neutrobox/zenLogBOT.git
+    cd zenLogBOT
     ```
 
 3.  **Create and activate Virtual Environment (Recommended):**
@@ -47,17 +47,17 @@ These instructions are for running the application directly from the source code
 4.  **Install Dependencies:**
     With the virtual environment activated, install the necessary libraries:
     ```bash
-    pip install -r ./nuevobot/requirements.txt
+    pip install -r requirements.txt
     ```
 
 5.  **Run the Application:**
     ```bash
-    python ./nuevobot/main.py
+    python main.py
     ```
 
 6.  **Initial Configuration:**
     *   The first time you run, go to the "Configuration" tab.
-    *   Enter your **Discord BOT Token**. (Tutorial on how to create a Discord BOT: [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token))
+    *   Enter your **Discord BOT Token**. (Tutorial on how to create a Discord BOT and retrieve it's token: [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token))
     *   Enter the **Discord Channel ID** where you want logs to be posted.
     *   Select your **Logs folder** (`arcdps.cbtlogs`) using the "Browse..." button.
     *   (Optional) Enter your dps.report user token.
@@ -67,11 +67,10 @@ These instructions are for running the application directly from the source code
 
 7.  **Usage:**
     *   Go to the "Upload logs" tab.
+    *   Optionally, check "Show encounter duration" to display the encounter duration in the message sent to the Discord channel configured previously.
     *   Use the **Preset** buttons or select a **Category** to choose specific logs.
-    *   Optionally, check "Show encounter duration".
-    *   Click the corresponding upload button ("Full Raid Clear", "Upload selected", etc.).
-    *   Enter an optional title in the pop-up window.
-    *   Observe the progress in the "Log Output" area.
+    *   Enter an optional title in the pop-up window and click 
+    *   Observe the progress in the "Output" area.
     *   The formatted results will be posted to the configured Discord channel.
 
 8.  **Deactivate Virtual Environment:**
@@ -80,7 +79,7 @@ These instructions are for running the application directly from the source code
     deactivate
     ```
 
-## Manual Executable Build (Optional)
+## Manual executable build (Optional)
 
 If you wish to create your own standalone `.exe` file:
 
@@ -92,7 +91,7 @@ If you wish to create your own standalone `.exe` file:
 3.  **Run PyInstaller:**
     From the root project folder (`gw2logbot`), run the following command:
     ```bash
-    pyinstaller --name "zenLogBOT" --onefile --windowed --icon="./nuevobot/favicon.ico" --add-data="./nuevobot/data;data" ./nuevobot/main.py
+    pyinstaller --name "zenLogBOT" --onefile --windowed --icon="favicon.ico" --add-data="data;data" main.py
     ```
     *   `--onedir`: Alternatively, you can use `--onedir` instead of `--onefile`. This will create a folder in `dist` instead of a single file, which is less likely to be flagged as a false positive by antivirus software. If you use `--onedir`, you must distribute the entire generated folder found inside `dist`.
 4.  **Result:** The executable (`zenLogBOT.exe`) or folder (`dist/zenLogBOT`) will be located in the `dist` folder.
