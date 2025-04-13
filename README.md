@@ -1,6 +1,6 @@
 # zenLogBOT - GW2 Log Uploader
 
-A desktop application to upload Guild Wars 2 ArcDPS logs to [dps.report] and post formatted results to Discord.
+A desktop application to upload Guild Wars 2 ArcDPS logs to [dps.report](https://dps.report) and post formatted results to Discord.
 
 ## Features
 
