@@ -93,9 +93,5 @@ If you wish to create your own standalone `.exe` file:
     ```bash
     pyinstaller --name "zenLogBOT" --onefile --windowed --icon="favicon.ico" --add-data="data;data" main.py
     ```
-    *   `--onedir`: Alternatively, you can use `--onedir` instead of `--onefile`. This will create a folder in `dist` instead of a single file, which is less likely to be flagged as a false positive by antivirus software. If you use `--onedir`, you must distribute the entire generated folder found inside `dist`.
+    *   `--onedir`: Alternatively, you can use `--onedir` instead of `--onefile`. This will create a folder in `dist` instead of a single file, which is less likely to be flagged as a false positive by antivirus software.
 4.  **Result:** The executable (`zenLogBOT.exe`) or folder (`dist/zenLogBOT`) will be located in the `dist` folder.
-
-## Project Structure
-
-See `PLAN.md` for the detailed project structure.
