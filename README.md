@@ -98,4 +98,4 @@ If you wish to create your own standalone `.exe` file:
 
 ##Credits
 
-Special thanks to Phantom for it's [app](https://github.com/aytiel/PHTM-b0t) and [kP] guild members for testing purposes.
+Special thanks to aytiel for [PHTM-b0t](https://github.com/aytiel/PHTM-b0t) and [kP] guild members for testing purposes.
