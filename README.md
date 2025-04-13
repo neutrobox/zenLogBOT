@@ -4,33 +4,27 @@ A desktop application to upload Guild Wars 2 ArcDPS logs to [dps.report] and pos
 
 ## Features
 
-*   **Graphical User Interface:** Built with CustomTkinter for a modern look.
 *   **Upload to dps.report:** Uploads `.evtc`, `.zevtc`, and `.evtc.zip` files to the `b.dps.report` endpoint.
 *   **Discord Publishing:**
     *   Sends a formatted *embed* message to the specified Discord channel.
-    *   Groups logs by Wing/Scale/Section.
-    *   Displays the boss name in bold as a link to the report.
-    *   Uses custom emojis from the Discord server (if the bot is a member).
-    *   Option to display encounter duration.
-    *   Allows adding a custom title to each upload batch.
-*   **Flexible Selection:**
+    *   Groups logs by Wing/Scale (Fractals)/Strikes.
+    *   Option to display encounter duration in the Discord message sent.
+    *   Allows adding a custom title to each upload batch (Discord message).
+*   **Flexible selection:**
     *   **Presets:** Buttons for quick uploads (Full Raid Clear W1-W8, Semi FC W1-W7, All Fractal CMs).
-    *   **By Category:** Buttons to show and select specific logs for Raids, Strikes, or Fractals.
-*   **Persistent Configuration:** Saves settings (token, channel, path, language, etc.) in the user's data folder (`%APPDATA%\zenLogBOT` on Windows).
-*   **Operation Log:** Displays progress and results directly in the UI.
+    *   **By category:** Buttons to show and select specific logs for Raids, Strikes, or Fractals.
+*   **Persistent configuration:** Saves settings (token, channel, path, language, etc.) in the user's data folder (`%APPDATA%\zenLogBOT` on Windows).
 *   **Multi-language:** Interface available in English and Spanish.
-*   **Custom Icon:** Uses `favicon.ico`.
-*   **Automatic Centering:** Main window and dialogs appear centered.
 
-## Installation and Execution (from Source Code)
+## Installation and execution (from source code)
 
-These instructions are for running the application directly from the source code, ideal for development or if you prefer not to use the pre-compiled executable.
+These instructions are for running the application directly from the source code, if you prefer not to use the pre-compiled executable.
 
 1.  **Prerequisites:**
     *   [Python](https://www.python.org/downloads/) (version 3.11+ recommended). Ensure `python` and `pip` are in your PATH.
     *   [Git](https://git-scm.com/downloads/).
 
-2.  **Clone the Repository:**
+2.  **Clone the repository:**
     ```bash
     # Navigate to the folder where you want to clone the project
     git clone <REPOSITORY_URL> gw2logbot
